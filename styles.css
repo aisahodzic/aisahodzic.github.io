@@ -1,21 +1,77 @@
+*{
+	margin:0;
+	padding:0;
+	list-style:  none;
+	text-decoration: none;
+}
+
+html{
+	background: url("simple5.png"); 
+	background-position: 0px -70px;
+	
+
+}
 
 body{
-	background-color: snow;
+	
+	
+	height: 150vh;  /*100% view height */
+	/* setting width: 100vw for 100% view width */
+	font-family: 'Lato', sans-serif;
+    text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: hidden;
+
+    
+    
+}
+header{
+		
+	height: 50px;
+	width: 100%;
+	display: inline-block;
+	background-color: black;
+	position: relative;
+
+
 }
 
-#navigation{
-	text-align: right;
+.logo{
+	width:50px;
+	height:50px;
+	position:relative;
+	
+	top:5px;
+	left:5px;
+	
 }
+
+
+.navigation{
+	width:200px;
+	
+	font-size:10px;
+	right:15px;
+	top:15px;
+	position:absolute;
+}
+
+#CurrentPage{
+ color:white;
+}
+
+
+
 a { /* # hashtag for IDs */
 	
-	font-size:24px;	
-	color:black;
-	text-decoration: none; /* color and decoration did not work if in id=navigation*/
+	font-size:20px;
+	color:#a773c1;	
+	text-decoration: none; 
 
 }
 
 a:hover{
-	color:red;
+	color:#c89666;
 	text-decoration: none;
 }
 
@@ -23,39 +79,343 @@ a:hover{
 h1 {
 	text-align: center;
 	font-size: 40px;
+	margin-top:40px;
+	margin-bottom: 10px;
+	color:white;
+	text-shadow: 1px 2px 5px #a773c1;
+
+
+
 }
 
 
 h4 {
 	font-size:22px;
-
-	text-align: center;
+	
+	text-align:center;
+	max-width: 1000px;
+	margin: auto;	
 	margin-top: 100px;
-  	margin-bottom: 100px;
-  	margin-right: 150px;
-  	margin-left: 150px
-  	
+  	margin-bottom: 80px;
+  	color: #e1baf5; /*#c595de; nice color*/
+	text-shadow: 2px 2px 5px black;
+  	font-style: bold;
+
  	
 }
 
-p{
-	text-align: center;
+#surprise{
+	color: white;
+	margin-bottom: 120px;
 }
-h5{
+
+
+
+.MovieReady{
+	text-align: center;
+	
+	
+	margin:0 auto;
+	font-size:18px;
+	color: black;
+	text-shadow: 1px 1px  #a773c1;
+	font-style: italic;
+
+}
+
+
+
+.videoCSS{
+	text-align: center;
+	margin-top: 0px;
+	width: 720px;
+	height: 480px;
+
+	}
+
+#Video-holder{
+	
+	width:720px;
+	height: 480px;
+	margin:0 auto;
+
+}
+
+.MeetCast{
 	font-size: 15px;
 	text-align: center;
+	color: black;
+	margin:0 auto;
+}
+
+footer {
+   position: static;
+  	bottom: 0;
+  	margin-top: 200px;
+   width:100%;
+   height:50px;   /* Height of the footer */
+   text-align: center;
+   color: white;
+   background-color: black;
+    
+}
+
+.FooterClass{
+	margin-top: 5px;
+	vertical-align: middle;
+	display: inline-block;
+
+	
+}
+
+.SocialMedia{
+	margin-top: 10px;
+	vertical-align: middle;
+	display: inline-block;
+	
+}
+
+
+.TheCastBox{
+	
+	margin-top: 75px;
 }
 
 
 
+.CastOne{
+	
+	background-image: url("Matthew.jpg");
+	background-size:cover;
+ 	border-radius: 50%;
+ 	background-position: center;
+  	min-width:200px;
+  	min-height: 200px; 	
 
-.makeBlue{ 	/*. (dot) for class */
-	color:blue;
-	background: palegreen;
 }
 
-#container { /* # hashtag for IDs */
-	width:100%;
-	height:100vh;
-	/* background-color: lightgreen;*/ 
+.CastTwo{
+	
+	background-image: url("Safeya.jpg");
+	background-size:cover;
+ 	border-radius: 50%;
+ 	background-position: center;
+  	min-width:200px;
+  	min-height: 200px; 	
+
 }
+
+.CastThree{
+	
+	background-image: url("hasin.jpg");
+	background-size:cover;
+ 	border-radius: 50%;
+ 	background-position: center;
+  	min-width:200px;
+  	min-height: 200px; 	
+
+}
+
+.CastFour{
+	
+	background-image: url("Aisha.jpg");
+	background-size:cover;
+ 	border-radius: 50%;
+ 	background-position: center;
+  	min-width:200px;
+  	min-height: 200px; 	
+
+}
+
+.CastText p{
+	
+	margin-top: 25px;
+	padding:30px 30px;
+	box-sizing: border-box;
+	font-size:18px;
+	color: #a773c1;
+	text-align: center;
+
+}
+.inline-box{
+	
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	width:70%;
+	margin:0 auto;
+	margin-top:50px;
+	min-width:700px;
+	
+
+}
+
+
+
+.AboutBox{
+	
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	width:90%;
+	margin:0 auto;
+	margin-top:50px;
+	min-width:850px;
+	
+}
+
+h2{
+	margin-top:25px;
+	margin-bottom: 10px;
+	color: white;
+	text-shadow: 2px 2px 5px #a773c1;
+}
+
+.NF{
+	margin: 0 auto;
+	max-width: 500px;
+	margin-top: 25px;
+	padding:30px 30px;
+	box-sizing: border-box;
+	font-size:18px;
+	color: white;	
+	text-shadow: 1px 2px 5px #a773c1;
+	text-align: center;
+	
+
+
+}
+
+/* The following code about the slideshow  is a modification from the code taken from W3 Schools: https://www.w3schools.com/howto/howto_js_slideshow.asp . The site was visited on 25th Sept 2020. */ 
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 500px;
+  position: relative;
+  margin:0 auto;
+  margin-top:50px;
+ 
+
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: white;
+  background-color: black;
+  font-size: 15px;
+  padding: 2px;
+  position: static;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin-top: 15px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+/*  _______________________________  */
+
+.Quote{
+	 text-align: center;
+
+	 font-size:30px;
+
+	text-align:center;
+	max-width: 1000px;
+	margin: auto;
+	
+	margin-top: 100px;
+  	margin-bottom: 150px;
+  	
+  	color: black;
+	text-shadow: 2px 2px #a773c1;
+  	font-style: italic;
+  	font-style: bold;
+
+
+
+}
+
+.MFF{
+	text-align: center;
+
+	width: 1080px;
+	margin-top: 50px;
+	margin:0 auto;
+	font-size:18px;
+	color: white;
+	text-shadow: 1px 2px 5px #a773c1;
+
+	
+
+}
+
+
