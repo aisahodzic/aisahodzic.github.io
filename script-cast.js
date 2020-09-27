@@ -17,8 +17,10 @@ var makeGhostTextAppear = () => {
 
 
 let MatCastTextJS = document.getElementById("cast-text1");
+let MatCastPhoto = document.getElementById("cast-photo1");
 
 MatCastTextJS.addEventListener('mouseenter', makeGhostTextAppear)
+MatCastPhoto.addEventListener('mouseenter', makeGhostTextAppear)
 // CastTextJS.addEventListener('mouseleave', makeGhostTextDisappear)
 
 
@@ -33,8 +35,12 @@ var makeGhostTextAppear = () => {
 
 
 let SafCastTextJS = document.getElementById("cast-text2");
+let SafCastPhoto = document.getElementById("cast-photo2");
 
 SafCastTextJS.addEventListener('mouseenter', makeGhostTextAppear)
+SafCastPhoto.addEventListener('mouseenter', makeGhostTextAppear)
+
+
 
 
 
@@ -47,8 +53,10 @@ var makeGhostTextAppear = () => {
 
 
 let HasCastTextJS = document.getElementById("cast-text3");
+let HasCastPhoto = document.getElementById("cast-photo3");
 
 HasCastTextJS.addEventListener('mouseenter', makeGhostTextAppear)
+HasCastPhoto.addEventListener('mouseenter', makeGhostTextAppear)
 
 
 var makeGhostTextAppear = () => {
@@ -60,5 +68,9 @@ var makeGhostTextAppear = () => {
 
 
 let AshCastTextJS = document.getElementById("cast-text4");
+let AshCastPhoto = document.getElementById("cast-photo4");
 
 AshCastTextJS.addEventListener('mouseenter', makeGhostTextAppear)
+AshCastPhoto.addEventListener('mouseenter', makeGhostTextAppear)
+
+
