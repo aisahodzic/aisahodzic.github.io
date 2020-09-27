@@ -229,11 +229,12 @@ footer {
 
 .CastText p{
 	
-	margin-top: 25px;
-	padding:30px 30px;
+	margin:0 auto;
+	/*margin-top: 40px;*/
+	padding:30px 40px;
 	box-sizing: border-box;
 	font-size:18px;
-	color: #a773c1;
+	color: #e1baf5;/* #a773c1; */
 	text-align: center;
 
 }
@@ -246,7 +247,7 @@ footer {
 	margin:0 auto;
 	margin-top:50px;
 	min-width:700px;
-	
+
 
 }
 
