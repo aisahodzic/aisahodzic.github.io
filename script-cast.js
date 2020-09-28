@@ -1,4 +1,4 @@
-
+ // for each of the cast members, these JS function open up the text box with biographies upon the hover over "meet *name*" or image in the circle
 
 
 var makeGhostTextAppear = () => {
@@ -9,11 +9,7 @@ var makeGhostTextAppear = () => {
   
 }
 
-// var makeGhostTextDisappear = () => {
-//   setTimeout(() => {
-//     CastTextJS.style.color = "#a773c1"; 
-//   }, 1500)
-// }
+
 
 
 let MatCastTextJS = document.getElementById("cast-text1");
@@ -21,7 +17,7 @@ let MatCastPhoto = document.getElementById("cast-photo1");
 
 MatCastTextJS.addEventListener('mouseenter', makeGhostTextAppear)
 MatCastPhoto.addEventListener('mouseenter', makeGhostTextAppear)
-// CastTextJS.addEventListener('mouseleave', makeGhostTextDisappear)
+
 
 
 
