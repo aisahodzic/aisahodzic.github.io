@@ -291,7 +291,7 @@ footer { /*setting the footer*/
 }
 
 h2{ /*setting the heading*/
-	margin-top:25px;
+	margin-top:10px;
 	margin-bottom: 10px;
 	color: #e1baf5;
 	text-shadow: 2px 2px 5px black;
@@ -310,6 +310,7 @@ h2{ /*setting the heading*/
 	color: white;	
 	text-shadow: 1px 1px 2px black ;
 	text-align: left;
+	
 
 	
 
