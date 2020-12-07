@@ -6,7 +6,7 @@ html{
 
 img {
   position: fixed;
-  width: 280px;
+  width: 230px;
   height: auto;
 }
 
@@ -27,12 +27,12 @@ body{
   
   .shape {
     box-sizing: border-box;
-    background: #e6769431;
+    background: #e6769459;
     animation: morph 7s ease-in-out infinite;
     border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
-    height: 450px;
+    height: 500px;
     transition: all 1s ease-in-out;
-    width: 600px;
+    width: 720px;
     max-height: 100%;
     max-width: 100%;
     z-index: -5;
@@ -43,7 +43,7 @@ body{
 
   .text {
     height: 450px;
-    width: 520px;
+    width: 600px;
     max-width: 100%;
     position: absolute;
   }
@@ -54,7 +54,7 @@ body{
     top: 10%;
     text-align: center;
     color: #008962bd;
-    font-size: 18pt;
+    font-size: 20pt;
   }
 
   h2{
@@ -62,8 +62,8 @@ body{
     top: 11%;
     text-align: center;
     z-index: 1;
-    color: #B29469;
-    font-size: 14pt;
+    color: #927852;
+    font-size: 15pt;
     font-style: italic;
   }
 
@@ -72,7 +72,7 @@ body{
     z-index: 1;
     top: 20%;
     text-align: center;
-    color: #B29469;
+    color: #927852;
     font-size: 15pt;
   }
 
@@ -89,6 +89,7 @@ body{
   a.class1:link, a.class1:visited{
     text-decoration: none;
     color:red;
+    font-size: 16pt;
   }
   
   a.class1:hover, a.class1:active{
@@ -121,7 +122,8 @@ body{
     z-index: 1;
     text-align: center;
     color: #008962bd;
-    font-size: 18pt;
+    font-size: 20pt;
+    padding-bottom: 2rem;
   }
   
   #form-wrapper {
@@ -291,18 +293,18 @@ body{
     transition: all 0.15s ease-in-out;
     font-size: 24px;
     background: #fff;
-    border: 2px solid #B29469;
+    border: 2px solid #927852;
     border-radius: 8px;
     outline: 0;
   }
   form + .button:hover {
-    background: #B29469;
+    background: #927852;
     color: #fff;
   }
  
   form + .button:focus {
-    background: #B29469;
-    border-color: #B29469;
+    background: #927852;
+    border-color: #927852;
     color: #fff;
   }
   form + .button:focus::before {
@@ -367,8 +369,8 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 100%;
+    height: 140%;
+    width: 140%; /*size of video*/
     min-height: 0;
   }
   
@@ -381,7 +383,7 @@ body{
   .video-gallery .video {
     animation: 1200ms fadeOut ease;
     animation-fill-mode: both;
-    grid-column-start: 2;
+    grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 3;
     max-height: 18em;
@@ -509,19 +511,22 @@ body{
     .grid-row {
       align-items: start;
       display: grid;
-      grid-column-gap: 170px;
+      grid-column-gap: 10px;
       grid-row-gap: 0;
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
       width: 100%;
+      bottom:10%;
     }
     .grid-row label {
       left: auto;
-      width: 100%;
+      width: 70%;
+      padding-right: 2rem;
     }
     .grid-row .video {
       position: relative;
       width: 100%;
+      left: 55%;
     }
   
     @keyframes fadeOut {
@@ -599,48 +604,5 @@ body{
     #video-1:checked ~ .video-1, #video-2:checked ~ .video-2, #video-3:checked ~ .video-3, #video-4:checked ~ .video-4 {
       width: 100%;
     }
-  
-    @keyframes fadeOut {
-      0% {
-        display: block;
-        height: 56vw;
-        opacity: 1;
-      }
-      25% {
-        display: block;
-        height: 56vw;
-        opacity: 1;
-      }
-      49% {
-        display: block;
-        height: 56vw;
-        opacity: 0;
-      }
-      50% {
-        display: none;
-        height: 0;
-        opacity: 0;
-      }
-    }
-    @keyframes fadeIn {
-      0% {
-        opacity: 0;
-      }
-      49% {
-        display: none;
-        height: 0;
-        opacity: 0;
-      }
-      50% {
-        display: block;
-        height: 56vw;
-        opacity: 0;
-      }
-      100% {
-        display: block;
-        height: 56vw;
-        opacity: 1;
-      }
-    }
+
   }
-  
