@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 html{
   scroll-behavior: smooth;
 }
@@ -9,9 +11,11 @@ img {
 }
 
 body{
+  box-sizing: border-box;
   background-image: url('bg.png');
   background-repeat: no-repeat;
   background-size: cover;
+  font-family: 'Barlow Condensed', sans-serif;
 }
 
   #container1 {
@@ -50,7 +54,6 @@ body{
     top: 10%;
     text-align: center;
     color: #008962bd;
-    font-family: 'Barlow Condensed', sans-serif;
     font-size: 18pt;
   }
 
@@ -60,7 +63,6 @@ body{
     text-align: center;
     z-index: 1;
     color: #B29469;
-    font-family: 'Barlow Condensed', sans-serif;
     font-size: 14pt;
     font-style: italic;
   }
@@ -71,7 +73,6 @@ body{
     top: 20%;
     text-align: center;
     color: #B29469;
-    font-family: 'Barlow Condensed', sans-serif;
     font-size: 15pt;
   }
 
@@ -81,7 +82,6 @@ body{
     top: 30%;
     left: 45%;
     text-align: center;
-    font-family: 'Barlow Condensed', sans-serif;
     font-size: 15pt;
 
   }
@@ -116,7 +116,6 @@ body{
     display: flex;
     height: 100vh;
     justify-content: center;
-    font-family: 'Barlow Condensed', sans-serif;
   }
   
   h3{
@@ -124,9 +123,9 @@ body{
     z-index: 1;
     text-align: center;
     color: #008962bd;
-    font-family: 'Barlow Condensed', sans-serif;
     font-size: 18pt;
   }
+
   #form-wrapper {
     width: 100%;
     display: -webkit-box;
@@ -156,10 +155,6 @@ body{
     position: relative;
     width: 100%;
     height: 50px;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
   }
   form #time-amount-slider::before {
     content: " ";
@@ -220,11 +215,6 @@ body{
     border: 2px solid #000;
     background: #fff;
     border-radius: 50%;
-    pointer-events: none;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
     z-index: 1;
     cursor: pointer;
     -webkit-transition: all 0.15s ease-in-out;
@@ -293,27 +283,20 @@ body{
     transition: all 0.15s linear;
   }
   form + button {
+    color:black;
     display: block;
+    text-decoration: none;
     position: relative;
     margin: 56px auto 0;
     padding: 10px 20px;
-    -webkit-appearance: none;
-       -moz-appearance: none;
-            appearance: none;
     -webkit-transition: all 0.15s ease-in-out;
     transition: all 0.15s ease-in-out;
     font-family: inherit;
     font-size: 24px;
-    font-weight: 600;
     background: #fff;
     border: 2px solid #B29469;
     border-radius: 8px;
     outline: 0;
-    -webkit-user-select: none;
-       -moz-user-select: none;
-        -ms-user-select: none;
-            user-select: none;
-    cursor: pointer;
   }
   form + button:hover {
     background: #B29469;
@@ -324,7 +307,6 @@ body{
     background: #B29469;
     border-color: #B29469;
     color: #fff;
-    pointer-events: none;
   }
   form + button:focus::before {
     -webkit-animation: spin 1s linear infinite;

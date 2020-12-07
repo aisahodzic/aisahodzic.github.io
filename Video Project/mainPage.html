@@ -2,6 +2,7 @@
 <html>
 <head>
     <link rel="stylesheet" href="stylemain.css">
+    <script src="scriptmain.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400&display=swap" rel="stylesheet"></head>
 
 <body>
@@ -12,7 +13,7 @@
       <div class="text">
       <h1>self care: a priority</h1>
      <h2>normalizing what makes you feel good</h2> 
-      <p>A boot, banana, mug, and paperclip take you on their journey to self care to get you inspired to customize your own self care kit.
+      <p>Our friends take you on their journey to self care to get you inspired to customize your own self care kit. They remind us that the unusual can help us do good to ourselves more than anything. 
       remember: clear your mind, treat yourself, go out!</p> 
       <a href="#container2" class="class1"> Let's go </a>
     </div> 
@@ -24,19 +25,44 @@
           <form action="/p/quote.php" method="GET">
             <h3>time for self care?</h3>
             <div id="time-amount-slider">
-              <input type="radio" name="time-amount" id="1" value="1" required>
+              <input type="radio" name="time-amount" id="1" value="1" required onclick="check()">
               <label for="1" data-time-amount="<hour"></label>
-              <input type="radio" name="time-amount" id="2" value="2" required>
+              <input type="radio" name="time-amount" id="2" value="2" required onclick="check()">
               <label for="2" data-time-amount="2 hrs"></label>
-              <input type="radio" name="time-amount" id="3" value="3" required>
+              <input type="radio" name="time-amount" id="3" value="3" required onclick="check()">
               <label for="3" data-time-amount="a day"></label>
-              <input type="radio" name="time-amount" id="4" value="4" required>
+              <input type="radio" name="time-amount" id="4" value="4" required onclick="check()">
               <label for="4" data-time-amount="weekend+"></label>
               
             </div>
           </form>
-          <button type="submit">Go!</button>
+          <a href="#container3" class="button" >Go!</a>
         </div>
-
+        <div id="container3">
+          <div class="shape"></div>
+          <div class="grid-row reverse video-gallery">
+            <input type="radio" value="1" name="video-list" id="video-1" /><label for="video-1">Banana's 20 min routine</label>
+            <input type="radio" value="2" name="video-list" id="video-2" /><label for="video-2">Buckle's 2 hr routine</label>
+            <input type="radio" value="3" name="video-list" id="video-3" /><label for="video-3">Clip's 1 day routine </label>
+            <input type="radio" value="4" name="video-list" id="video-4" /><label for="video-4">Mug's weekend routine</label>
+    
+          <div class="video video-1">
+            <iframe src="https://player.vimeo.com/video/487991042?autopause=1&byline=0&portrait=0&title=0" width="960" height="540" frameborder="0" allowfullscreen></iframe>
+           </div>
+          
+           <div class="video video-2">
+            <iframe src="https://player.vimeo.com/video/487990995?autopause=1&byline=0&portrait=0&title=0" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+           </div>
+          
+           <div class="video video-3">
+            <iframe src="https://player.vimeo.com/video/487990955?autopause=1&byline=0&portrait=0&title=0" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+           </div>
+          
+           <div class="video video-4">
+            <iframe src="https://player.vimeo.com/video/487991101?autopause=1&byline=0&portrait=0&title=0" width="640" height="360" frameborder="0" allowfullscreen></iframe>
+           </div>   
+    
+           </div>
+              </div>
 </body>
 </html>
