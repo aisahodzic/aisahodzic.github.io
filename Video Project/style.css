@@ -1,7 +1,7 @@
 
 body {
     background-color: #f8f8f4;
-    font-family: 'Barlow Condensed', sans-serif;
+    
     background: url('bgg1.png');
     /*or bg2.jbg*/
   /*  no-repeat center center; 
@@ -10,20 +10,48 @@ body {
     -o-background-size: cover;
     background-size: cover;;*/
     width: 100%;
-    height: 100%;
+    font-family: 'Barlow Condensed', sans-serif;
+    
     
 
     color: black;
 
 }
+header{
+  
+  height: 50px;
+  width: 100%;
+  display: inline-block;
+  color:#927852;
+  
+  position: relative;
+}
+.inheader{
+  
+
+}
+
+.Logo{
+
+  width:70px;
+  height:50px;
+  position:relative;
+  
+  top:5px;
+  left:5px;
+
+}
+
 .heading {
-    background-color: red;
+    
+    
     width: 90%;
     max-width: 100%;
     margin: 20px auto;
 
 }
 .subheading{
+    color:#927852;
     height: 50%;
     text-align: center;
     margin: 20px auto;
@@ -47,8 +75,8 @@ body {
 
 h1 {
     
-    background-color:#008962bd;
-    color: #fff;
+    /*background-color:#008962bd;*/
+    color:#008962bd;
     font-size: 24px;
     font-weight: normal;
     text-transform: uppercase;
@@ -62,10 +90,11 @@ h1 {
     width:100%;
 }
 .items {
-    
+    color:#927852;
     display: block;
     width:100%;
     margin: 20px 0;
+    background-color: yellow;
 }
 .item {
     
@@ -106,6 +135,7 @@ h1 {
 
 #item4{
     margin-left: 5%  !important;
+    margin-top: 2% !important;
 }
 #item5{
     margin-left: 50%  !important;
@@ -130,7 +160,7 @@ h1 {
 }
 #item10{
     margin-left: 5%  !important;
-  margin-top: -20% !important;
+  margin-top: -25% !important;
 }
 
 
@@ -148,13 +178,13 @@ h2:after {
     margin: 0 auto; 
     width: 80%; 
     padding-top: 10px; 
-   border-bottom: 1px solid #ccc; 
+   
 }
 
 
 button {
 
-    border: 1px solid #008962bd;
+    border: 2px solid #008962bd;
     padding: 6px 6px;
     background-color: #fff;
     color: #008962bd;
@@ -166,7 +196,22 @@ button {
     outline:none;
     font-family: 'Barlow Condensed', sans-serif;
     font-size:16px;
+    
+    text-decoration: none;
+    -webkit-transition: all 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
+    /*border: 2px solid #927852;*/
+    border-radius: 8px;
+    outline: 0;
 }
+
+ 
+
+
+
+
+
+
 button:hover{
 
     background-color:#DEEAE1;
@@ -185,26 +230,36 @@ span {
     position: absolute;
     color:white;
     text-align: center;
-    left:43%;
-    top:75%;
+    /*left:50%
+    top:50%;*/
     float:center;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 20px;
+    
+    transform: translate(50%, 650%);
+    
 
 }
 .myBasket {
     
     display: inline-block;
     background: url('basket1.png') no-repeat 0 0;
-    background-size: 200px 200px;
+    background-size: 400px 400px;
 /*    background-color: yellow;*/
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     margin: 0 0px 0 0;
     position: absolute;
 
-    left:43%;
-    top:55%;
+    left:50%;
+    top:50%;
     float:center;
+    transform: translate(-50%, 0%);
+    
 
+}
+.basketcontainer{
+  
 }
 
 
@@ -212,13 +267,108 @@ span {
    
     .myBasket {
         
-        top:75%;
+        transform: translate(-50%, 20%);
     }
     .BasketButton{
-        top:100%;
+        /*top:120%;*/
     }
     
 }
+.giftclass{
+color: #927852; 
+font-size: 24px;
+}
+.giftclass:hover{
+  color:#008962bd;
+}
+#mycontainer2 {
+
+   margin: 0;
+   padding:20px;
+
+  }
+
+
+#container2 {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    
+    width: 100%;
+  }
+
+.shape {
+    box-sizing: border-box;
+    background: #e6769459;
+    animation: morph 7s ease-in-out infinite;
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+    height: 500px;
+    transition: all 1s ease-in-out;
+    width: 720px;
+    max-height: 100%;
+    max-width: 100%;
+    z-index: -5;
+    left: 50%; 
+    transform: translate(-50%, 0%);
+    position: absolute;
+  }
+
+
+  @keyframes morph {
+    0% {
+    border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+      } 
+    50% {
+    border-radius:  30% 60% 70% 40% / 50% 60% 30% 60%;
+      }
+    100% {
+    border-radius:  60% 40% 30% 70% / 60% 30% 70% 40%;
+      } 
+  }
+
+   #form-wrapper {
+
+    width: 100%;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    -webkit-box-align: center;
+            align-items: center;
+    z-index: 10;
+    position: relative;
+    text-align: center;
+    
+
+  }
+  #ftarrow{
+    
+  }
+
+  .arrow1 {
+  /*margin-right: 20%;*/
+ /* top: 300%;*/
+  /*left:50%;
+  top:200;
+  transform: translateX(-50%);*/
+  /*position:absolute;*/
+  color: grey;
+  font-size: 50px; 
+  cursor: pointer; 
+  border-radius:25px;
+  text-align: center;
+  
+
+
+
+}
+
+
+
+
+
 /*=================================================================================*/
 /*FOOTER*/
 
@@ -226,7 +376,8 @@ footer
 {
   margin: 0;
   height: auto;
-  /*background: rgba(0,0,0,0.85);*/
+  background: rgba(0,0,0,0.4);
+
 }
 
 footer p
@@ -241,8 +392,11 @@ h4
 {
   font-size: 18pt;
   /*font-family: 'Katibeh', cursive;*/
-  margin: 20px;
+  padding-bottom: 40px;
+  
+  margin-left:15%;
   color: ivory;
+  text-align: center;
 }
 
 /*top block of footer i.e. footer part 1*/
@@ -251,20 +405,22 @@ h4
   display: flex;
   width: 100%;
   height: 100%;
-  margin: 25px 0 0 0 ;
-  padding: 25px 0px;
-  background-color: black;
+  margin: 0 0 0 0 ;
+  padding: 20px 0px;
+  
 
 }
 
 
 .BB
 {
-
+  /*margin-left:5%;*/
   display: inline-block;
   flex: 1;
-  margin: 10px auto;
+  
   text-align: center;
+  padding: 0;
+
 
 
 }
@@ -277,18 +433,19 @@ h4
   padding-top: 80px;
   flex: 0.2;
   text-align: center;
+
 }
 
 footer .social a
 {
   text-decoration: none;
   font-size: 18pt;
-  color: grey;
+  color:#474E49;
 }
 
 .social a:hover
 {
-  color: white;
+  color: ivory;
 }
 
 /*bottom part of footer i.e. the copyright section*/
@@ -305,6 +462,8 @@ footer .social a
   /*line-height: 37.5px;*/
 }
 
+
+
 footer .copyright p
 {
   font-size: 16pt;
@@ -317,14 +476,16 @@ footer .copyright p
 .Team1{
     float: left;
     clear: none;
-
+    margin:0 0;
     width: 50%;
+    
 }
 .Team2{
     float: left;
     clear: none;
-
+ margin:0 0;
     width: 50%;
+
 }
 
 .Member{
@@ -332,6 +493,8 @@ footer .copyright p
     width:40%;
     margin: 0 2%;
     display: inline-block;
+    color:black;
+
 
 }
 #MemberText{
@@ -354,8 +517,15 @@ footer .copyright p
 .Team2{
     margin-top: 20px;
     width: 100%;
+}   
 }
-    
+
+#membername{
+  padding:5px; 
+  color:black;
+}
+#membercare{
+color:#474E49;
 }
 
 

@@ -17,10 +17,10 @@ $('.toadd-button').on('click', function () {
             })
                 .appendTo($('body'))
                 .animate({
-                'top': cart.offset().top +80,
-                    'left': cart.offset().left +70,
+                'top': cart.offset().top +150,
+                    'left': cart.offset().left +150,
                     'width': 75,
-                    'height': 75
+                    'height': 75,
             }, 1000, 'easeInOutExpo');
             
             setTimeout(function () {
@@ -39,6 +39,6 @@ $('.toadd-button').on('click', function () {
         }
     });
 
-$( '.send-button' ).click(function() {
-  $('.send-button').text("Check your mail!");
+$( '.email-button' ).click(function() {
+  $('.email-button').text("Check your mail!");
 });
