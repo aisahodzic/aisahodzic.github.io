@@ -19,6 +19,7 @@ body{
   font-family: 'Barlow Condensed', sans-serif;
 }
 
+
 #container1 {
     align-items: center;
     display: flex;
@@ -42,7 +43,7 @@ body{
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 20px 22px;
+  padding: 15px 22px;
   text-decoration: none;
   font-size: 13pt;
 }
@@ -429,7 +430,7 @@ h1{
     grid-column-start: 1;
     grid-row-start: 1;
     grid-row-end: 3;
-    max-height: 18em;
+    max-height: 19em;
     opacity: 0;
     transition: all 300ms ease;
   }
@@ -440,21 +441,15 @@ h1{
     padding: 0;
     position: fixed;
     width: 0;
-    
   }
-  
-  .video-gallery input {
-    grid-column-start: 1;
-    grid-row-start: 1;
-    
-  }
+
 
   .video-gallery label {
     color: #000000;
     font-size: 15pt;
     grid-column-start: 3;
     margin: 0;
-    padding: 1rem 0 1rem 3rem;
+    padding: 1rem 0 1rem 2.5rem;
     position: relative;
     border-bottom: 1px solid #CCCCCC;
   }
@@ -468,10 +463,6 @@ h1{
   }
   .video-gallery input[type="radio"]:checked + label {
     color: #e67694; 
-  }
-  .video-gallery input[type="radio"]:checked + label:first-of-typebefore {
-    content: "▶";
-    top:px;
   }
 
   .grid-row {
