@@ -38,6 +38,14 @@ body{
   z-index: 5;
 }
 
+.newAtt {
+  background-color: #927852;
+}
+
+.oldAtt{
+  color:white;
+}
+
 .navbar a {
   float: left;
   display: block;
@@ -49,8 +57,7 @@ body{
 }
 
 .navbar a:hover {
-  background: #927852;
-  color: white;
+  color: black;
 }
 
 .shape {
