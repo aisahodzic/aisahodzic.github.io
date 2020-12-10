@@ -10,10 +10,14 @@ function check() {
     document.getElementById("video-4").checked = "checked";}    
 }
 
-window.onscroll = function() {home(); getstarted(); DIYkit(); about() };
+/*if (document.body.scrollTop == 0) {
+  document.getElementById("home").className = "newAtt";
+}
+*/
+window.onscroll = function() {home(); getstarted(); about() };
 
 function home() {
-  if (document.body.scrollTop > 0 && document.body.scrollTop < 558 || document.documentElement.scrollTop > 0 && document.documentElement.scrollTop < 558) {
+  if (document.body.scrollTop > 0 && document.body.scrollTop < 558 || document.documentElement.scrollTop >= 0 && document.documentElement.scrollTop < 558) {
     document.getElementById("home").className = "newAtt";} 
   else {
     document.getElementById("home").className = "oldAtt";
@@ -21,10 +25,18 @@ function home() {
 }
 
 function getstarted() {
-    if (document.body.scrollTop > 558 && document.body.scrollTop < 1130 || document.documentElement.scrollTop > 558 && document.documentElement.scrollTop < 1130) {
+    if (document.body.scrollTop > 558 && document.body.scrollTop < 1550 || document.documentElement.scrollTop > 558 && document.documentElement.scrollTop < 1550) {
       document.getElementById("started").className = "newAtt";} 
     else {
       document.getElementById("started").className = "oldAtt";
+    }
+  }
+
+function about() {
+    if (document.body.scrollTop > 1550 || document.documentElement.scrollTop > 1550 ) {
+      document.getElementById("about").className = "newAtt";} 
+    else {
+      document.getElementById("about").className = "oldAtt";
     }
   }
 
