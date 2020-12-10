@@ -17,6 +17,49 @@ body {
     color: black;
 
 }
+
+#logo {
+  position: fixed;
+  max-width: 100%;
+  width: 15%;
+  height: auto; 
+  /*transform: translateY(-20px);*/
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #008962bd;
+  position: fixed;
+  top: 30px; 
+  right: 20px;
+  width: auto; 
+  border-radius: 25px;
+  z-index: 5;
+}
+
+.newAtt {
+  background-color: #927852;
+}
+
+.oldAtt{
+  color:white;
+}
+
+.navbar a {
+  float: left;
+  display: inline-block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 13px 17px;
+  text-decoration: none;
+  font-size: 13pt;
+}
+
+.navbar a:hover {
+  color: black;
+}
+
+
 header{
   
   height: 50px;
@@ -77,7 +120,7 @@ h1 {
     
     /*background-color:#008962bd;*/
     color:#008962bd;
-    font-size: 24px;
+    font-size: 30px;
     font-weight: normal;
     text-transform: uppercase;
     padding: 4px 20px;
@@ -343,6 +386,7 @@ font-size: 24px;
     
 
   }
+
   #ftarrow{
     
   }
@@ -359,9 +403,6 @@ font-size: 24px;
   cursor: pointer; 
   border-radius:25px;
   text-align: center;
-  
-
-
 
 }
 
@@ -390,13 +431,14 @@ footer p
 
 h4
 {
-  font-size: 18pt;
+  font-size: 20pt;
   /*font-family: 'Katibeh', cursive;*/
   padding-bottom: 40px;
   
   margin-left:15%;
   color: ivory;
   text-align: center;
+  /*transform: translateX(-5%);*/
 }
 
 /*top block of footer i.e. footer part 1*/
@@ -502,10 +544,10 @@ footer .copyright p
     text-align: center;
     margin: 0 auto;
 }
-#MemberPhoto{
-    float:none;
 
-     width:150px;
+
+#MemberPhoto {
+    float:none;
     height:150px;
 }
 
