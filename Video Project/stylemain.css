@@ -832,13 +832,13 @@ footer .copyright p
 }   
 
 
-p .membername{
+.membername{
   padding:5px; 
-  font-color:black;
+  color:black;
 }
 
 p .membercare{
-  font-color:#474E49;
+  color:#474E49;
 }
 
 img {
