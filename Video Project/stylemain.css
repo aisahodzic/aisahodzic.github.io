@@ -47,7 +47,6 @@ body{
 }
 
 .navbar a {
-  float: left;
   display: block;
   color: #f2f2f2;
   text-align: center;
@@ -133,7 +132,7 @@ h1{
   
   a.class1:hover, a.class1:focus{
     text-decoration: none;
-    background: #927852;
+    background: #927952b4;
     color: #fff;
     border-color:#927852;
   }
@@ -347,12 +346,12 @@ h1{
     outline: 0;
   }
   form + .button:hover {
-    background: #927852;
+    background: #927952b4;
     color: #fff;
   }
  
   form + .button:focus {
-    background: #927852;
+    background: #927952b4;
     border-color: #927852;
     color: #fff;
   }

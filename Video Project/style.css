@@ -1,4 +1,6 @@
-
+html{
+  scroll-behavior: smooth;
+}
 body {
     background-color: #f8f8f4;
     
@@ -46,7 +48,6 @@ body {
 }
 
 .navbar a {
-  float: left;
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
@@ -69,10 +70,7 @@ header{
   
   position: relative;
 }
-.inheader{
-  
 
-}
 
 .Logo{
 
@@ -85,7 +83,7 @@ header{
 
 }
 
-.heading {
+#heading {
     
     
     width: 90%;
@@ -93,7 +91,7 @@ header{
     margin: 20px auto;
 
 }
-.subheading{
+#subheading{
     color:#927852;
     height: 50%;
     text-align: center;
