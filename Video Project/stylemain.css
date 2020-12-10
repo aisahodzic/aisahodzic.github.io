@@ -4,7 +4,7 @@ html{
   scroll-behavior: smooth;
 }
 
-img {
+.logo img {
   position: fixed;
   max-width: 100%;
   width: 18%;
@@ -12,6 +12,8 @@ img {
 }
 
 body{
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
   background-image: url('bg.png');
   background-repeat: no-repeat;
@@ -31,8 +33,8 @@ body{
   overflow: hidden;
   background-color: #008962bd;
   position: fixed;
-  top: 30px; 
-  right: 10px;
+  top: 40px; 
+  right: 20px;
   width: auto; 
   border-radius: 25px;
   z-index: 5;
@@ -50,7 +52,7 @@ body{
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
-  padding: 15px 20px;
+  padding: 13px 10px;
   text-decoration: none;
   font-size: 13pt;
 }
@@ -676,3 +678,169 @@ h1{
   }
 
   
+
+
+  /*=================================================================================*/
+/*FOOTER*/
+
+footer
+{
+  margin: 0;
+  height: auto;
+  background: rgba(0,0,0,0.4);
+  padding: 0;
+
+}
+
+footer p
+{
+  font-size: 14pt;
+  margin: 0;
+  /*color: grey;*/
+  /*border: 1px solid yellow;*/
+}
+
+footer h4
+{
+  font-size: 20pt;
+  /*font-family: 'Katibeh', cursive;*/
+  /*padding-bottom: 40px;*/
+  margin: 0;
+  margin-left:15%;
+  color: ivory;
+  text-align: center;
+  /*transform: translateX(-5%);*/
+}
+
+/*top block of footer i.e. footer part 1*/
+footer .info
+{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  margin: 0 0 0 0 ;
+  padding: 20px 0px;
+  
+
+}
+
+
+footer .BB
+{
+  /*margin-left:5%;*/
+  display: inline-block;
+  flex: 1;
+  
+  text-align: center;
+  padding: 0;
+
+
+
+}
+
+
+
+/*for social media icons*/
+footer .social
+{
+  padding-top: 80px;
+  flex: 0.2;
+  text-align: center;
+
+}
+
+footer .social a
+{
+  text-decoration: none;
+  font-size: 18pt;
+  color:#474E49;
+}
+
+footer .social a:hover
+{
+  color: ivory;
+}
+
+/*bottom part of footer i.e. the copyright section*/
+footer .copyright
+{
+  text-align: center;
+  max-width: 100%;
+  display: block;
+  background: rgba(0,0,0,0.9);
+  width: 100%;
+  height: auto;
+  padding: 10px 0px;
+  color: darkgrey;
+  /*line-height: 37.5px;*/
+}
+
+
+
+footer .copyright p
+{
+  font-size: 16pt;
+  padding: 0px;
+  color: grey;
+}
+
+
+.Team1{
+    float: left;
+    clear: none;
+    margin: 0 auto;
+    width: 50%;
+    padding-right: 0;
+}
+.Team2{
+    float: left;
+    padding-left: 0;
+    clear: none;
+    margin: 0 auto;
+    width: 50%;
+
+}
+
+.Member{
+    float:none;
+    width:40%;
+    margin: 0 2%;
+    display: inline-block;
+    color: black;
+}
+
+.MemberText{
+
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.MemberPhoto {
+    float:none;
+    height:150px;
+}
+
+@media (max-width: 1000px) {
+   
+.Team1{
+    width: 100%;
+}
+.Team2{
+    margin-top: 20px;
+    width: 100%;
+}   
+
+
+p .membername{
+  padding:5px; 
+  font-color:black;
+}
+
+p .membercare{
+  font-color:#474E49;
+}
+
+img {
+  height: 150px;
+}
