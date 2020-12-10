@@ -28,19 +28,3 @@ function getstarted() {
     }
   }
 
-  function DIYkit() {
-    if (document.body.scrollTop > 558 && document.body.scrollTop < 1130 || document.documentElement.scrollTop > 558 && document.documentElement.scrollTop < 1130) {
-      document.getElementById("kit").className = "newAtt";} 
-    else {
-      document.getElementById("kit").className = "oldAtt";
-    }
-  }
-
-
-  function about() {
-    if (document.body.scrollTop > 558 && document.body.scrollTop < 1130 || document.documentElement.scrollTop > 558 && document.documentElement.scrollTop < 1130) {
-      document.getElementById("about").className = "newAtt";} 
-    else {
-      document.getElementById("about").className = "oldAtt";
-    }
-  }
