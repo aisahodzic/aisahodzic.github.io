@@ -333,7 +333,7 @@ font-size: 24px;
 #container2 {
     align-items: center;
     display: flex;
-    height: 100vh;
+    height: 94vh;
     justify-content: center;
     
     width: 100%;
@@ -534,6 +534,7 @@ footer .copyright p
     margin: 0 2%;
     display: inline-block;
     color:black;
+    
 
 
 }
