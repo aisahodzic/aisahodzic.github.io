@@ -454,7 +454,7 @@ h1{
     color: #000000;
     font-size: 15pt;
     grid-column-start: 3;
-    margin: 0;
+    margin-right: 55px;
     padding: 1rem 0 1rem 2.5rem;
     position: relative;
     border-bottom: 1px solid #CCCCCC;
@@ -594,7 +594,7 @@ h1{
     .grid-row .video {
       position: relative;
       width: 100%;
-      left: 55%;
+      left: 50%;
     }
   
     @keyframes fadeOut {
