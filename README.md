@@ -1,5 +1,5 @@
 # aisahodzic.github.io
-My personal website
+Film Premiere Website
 
 <b>Website project</b>
 
@@ -45,4 +45,20 @@ The ambient of nature was created through visual and audio aspects. The visual a
 Reflection/Evaluation: 
 The very initial idea was just to bring the user to the rainmaking ritual, and offer them an experience of listening to forgotten yet very beautiful and unique songs that have been invoking the rain around the world for decades. Gradually, the project evolved into an educational space where the user can learn about the origin of the tribes and their specific rain-invoking ritual, and see their physical appearance and costumes. Beyond that, the experience of listening to different individual sounds to later develop your own version of the rain, leads the user into carefully examining the rain sound development and acknowledging the uniqueness of natural sounds. I believe that our final working version is an educational, creative and enjoyable piece, which achieves a very interesting goal of bringing the user closer to nature through technology, was our goal from the beginning.   
 
+
+
+
+<b>Video Project Documentation</b>
+
+Project Name: How to: Self Care
+
+Project Description: 
+How To: Self Care is a project that addresses multiple important aspects of mental health, in particular self care, in a creative and entertaining way. It aims to contribute to the list of innovative ideas of self care while normalizing somewhat unusual self care techniques and places objects as the main actors in the videos that helps visualize self care as an activity far beyond human restrictions. 
+
+Process:
+Through showing examples of how our chosen objects: a banana, mug, boot and a clip are spending their time in self care, we wanted for users to engage in the process of self-care, regardless of the time limit that they have. Hence, the survey for users to choose how much time they have contributed to the explanation that self care is not limited by time, but in fact the activity ideas needs to be adapted according to the time that is available to the person. The Stop motion was chosen as a method of recording, which consists of thousands of small increments between individually photographed frames. The chosen technique proved to be very effective, as the final videos came out as very joyful, memorable and pleasant to watch. Through using pastel and soft colors, with warm voice covers, objets and effects, and a very positive, upbeat background music, we wanted to create an experience in which the user could comfortably settle and enjoy while being presented with self-care ideas. Simultaneously, we wanted to expose the user to unexpected activities, such as fixing a humidifier, screaming outside or bathing in a toilet seat as activities that are considered enjoyable for someone else. The surprise effect due to the weirdness of self care activity combined with a comfortable setting environment would hopefully lead to the smooth acceptance and normalization of all sorts of self-care activities.   
+After the videos that inspire the user about their own potential self care activities, we wanted to shift the focus from our objects to the user, such that they directly think of their future self-care plan. This was achieved through the DIY-kit page in which the user can choose an unlimited number of objects that would be gifted to them to be used for self-care. In this process, the user instinctively thinks about how to utilize objects and chooses those accordingly, which promises greater involvement in self-care in the future, which was one of our goals. 
+
+Reflection/Evaluation: 
+As the ideas have evolved gradually, I believe that we have expanded our expectations and successfully reached all of our goals. With no initial inspiration on the topic we want to work on, we started just with the idea to include the stop motion and to choose activities that could be recorded while we are physically distant. Later on, we recognized self-care as a topic of our interest, moved on to making a table of self-care activities and distributing them over time intervals, to finally include the self-care package that could be sent to the user. During this whole process, the support of the group members was very important to continue with the improvement of each individual artwork. The recorded parts of videos, editing, and website development deliverables have consistently received feedback from all group members, which helped to integrate all of our parts together and satisfy all of our goals, both those defined in the beginning and those that we came along our path. 
 
